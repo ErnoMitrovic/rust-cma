@@ -1,0 +1,12 @@
+[package]
+name = "cma"
+version = "0.1.0"
+edition = "2024"
+build = "build.rs"
+
+[dependencies]
+logos = "0.13"
+lalrpop-util = "0.20"
+
+[build-dependencies]
+lalrpop = "0.20"
